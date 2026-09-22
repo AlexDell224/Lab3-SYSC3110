@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class AddressBook {
+public static class AddressBook {
     private Collection<BuddyInfo> addresses;
 
     public AddressBook() {
@@ -18,5 +18,8 @@ public class AddressBook {
 }
 
 public static void main(String[] args) {
-    System.out.println("Address Book");
+    BuddyInfo buddy = new BuddyInfo("Devin", "1234 Alphabet Lane", "1112223456");
+    AddressBook addressBook = new AddressBook();
+    addressBook.addBuddyInfo(buddy);
+    addressBook.removeBuddyInfo(buddy);
 }
