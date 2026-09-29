@@ -26,4 +26,5 @@ public static void main(String[] args) {
     addressBook.removeBuddyInfo(buddy);
     addressBook.addBuddyInfo(buddy);
     System.out.println("Added this line");
+    System.out.println("Added this line in GitHub");
 }
