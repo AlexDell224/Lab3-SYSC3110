@@ -17,6 +17,10 @@ public static class AddressBook {
     public void removeBuddyInfo(BuddyInfo buddy) {
         addresses.remove(buddy);
     }
+
+    public void printHello() {
+        System.out.println("Hello");
+    }
 }
 
 public static void main(String[] args) {
