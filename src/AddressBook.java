@@ -21,6 +21,9 @@ public static class AddressBook {
     public void printHello() {
         System.out.println("Hello");
     }
+    public void printSomething(){
+        System.out.println("Something");
+    }
 }
 
 public static void main(String[] args) {
